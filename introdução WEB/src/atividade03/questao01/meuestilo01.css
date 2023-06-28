@@ -1,0 +1,68 @@
+
+.title {
+    color: #fafafa;
+    background-color:cornflowerblue;
+    margin-block: 15px;
+    padding-block: 15px;
+}
+
+.body {
+    font-family: sans-serif;
+}
+
+.row {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 40px;
+    margin: 20px;
+    width: 200px;
+    transition: all 0.3s ease-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+  }
+   
+.Cidades {
+    border-left: 3px solid #4895ff;
+    text-align:start;
+}
+
+.btn {
+    background: #4895ff;
+    color: white;
+    border: none;   
+    padding: 10px 15px;
+    margin-left: 75%;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+}
+.btn:active {
+    transform: scale(0.98);
+    background-color:#83b6ff;
+}
+.painel {
+    color: black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color:#fafafa;
+    line-height: 20px;
+}
+
+#subName {
+    color: #fafafa;
+    background-color: cornflowerblue;
+    padding: 10px 15px;
+}
